@@ -2172,12 +2172,60 @@
 
 .u-container-layout.hover .u-section-6 .u-list-item-4 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}.u-section-7 .u-video-1 {
+}.u-section-7 .u-sheet-1 {
   min-height: 600px;
+}
+
+.u-section-7 .u-video-1 {
+  height: 500px;
+  margin: 50px 0;
 }
 
 .u-section-7 .embed-responsive-1 {
   position: absolute;
+}
+
+@media (max-width: 1199px) {
+  .u-section-7 .u-video-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-7 .u-sheet-1 {
+    min-height: 504px;
+  }
+
+  .u-section-7 .u-video-1 {
+    height: 404px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-7 .u-sheet-1 {
+    min-height: 5px;
+  }
+
+  .u-section-7 .u-video-1 {
+    height: 310px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-7 .u-sheet-1 {
+    min-height: 0;
+  }
+
+  .u-section-7 .u-video-1 {
+    height: 200px;
+    margin-right: initial;
+    margin-left: initial;
+  }
 }.u-section-8 .u-sheet-1 {
   min-height: 686px;
 }
